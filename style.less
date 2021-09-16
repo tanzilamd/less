@@ -1,16 +1,36 @@
 @card_width: 600px;
 @img_width: 200px;
 @content_width: 345px;
+
+.tr (@time){
+    transition: all linear @time;
+    -webkit-transition: all linear @time;
+    -moz-transition: all linear @time;
+    -o-transition: all linear @time;
+    -ms-transition: all linear @time;
+}
+.d_btn {
+    display: inline-block;
+    padding: 5px 20px;
+    text-decoration: none;
+    border: 1px solid red;
+}
 .l_card {
     border: 1px solid red;
     width: @card_width;
     border-radius: 5px;
     margin-top: 50px;
+    .tr(.5s);
+    &:hover {
+        background-color: rgb(231, 191, 191);
+        color: white;
+    }
     .l_card_body {
         padding: 15px;
         display: flex;
         flex-wrap: wrap;
         box-sizing: border-box;
+        
         .img {
             width: 200px;
             img {
@@ -26,6 +46,9 @@
             }
             p {
                 color: gray;
+            }
+            .link {
+                .d_btn;
             }
         }
     }
