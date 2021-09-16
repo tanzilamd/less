@@ -1,7 +1,9 @@
-
+@card_width: 600px;
+@img_width: 200px;
+@content_width: 345px;
 .l_card {
     border: 1px solid red;
-    width: 600px;
+    width: @card_width;
     border-radius: 5px;
     margin-top: 50px;
     .l_card_body {
@@ -12,12 +14,12 @@
         .img {
             width: 200px;
             img {
-                width: 100%;
+                width: @img_width;
                 height: 100%;
             }
         }
         .content {
-            width: 345px;
+            width: @content_width;
             padding: 10px;
             h4 {
                 font-weight: 600;
