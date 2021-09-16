@@ -1,4 +1,4 @@
-@import "component.scss";
+// @import "component.scss";
 
 $card_width: 600px;
 $img_width: 200px;
@@ -44,9 +44,9 @@ $content_width: 345px;
             p {
                 color: gray;
             }
-            .link {
-                .d_btn;
-            }
+            // .link {
+            //     .d_btn;
+            // }
         }
     }
 }
