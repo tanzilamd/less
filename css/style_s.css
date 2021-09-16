@@ -1,0 +1,52 @@
+.d_btn {
+  display: inline-block;
+  padding: 5px 20px;
+  text-decoration: none;
+  border: 1px solid red;
+}
+
+.l_card {
+  border: 1px solid red;
+  width: 600px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.l_card:hover {
+  background-color: #e7bfbf;
+  color: white;
+}
+
+.l_card .l_card_body {
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.l_card .l_card_body .img {
+  width: 200px;
+}
+
+.l_card .l_card_body .img img {
+  width: 200px;
+  height: 100%;
+}
+
+.l_card .l_card_body .content {
+  width: 345px;
+  padding: 10px;
+}
+
+.l_card .l_card_body .content h4 {
+  font-weight: 600;
+}
+
+.l_card .l_card_body .content p {
+  color: gray;
+}
+/*# sourceMappingURL=style_s.css.map */
